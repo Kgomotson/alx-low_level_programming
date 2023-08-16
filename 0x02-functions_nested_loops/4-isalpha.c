@@ -13,11 +13,11 @@ while (alpha <= 'z' || ALPHA <= 'Z')
 {
 if (c ==  alpha || c == ALPHA)
 {
-return (1);
+return (49);
 }
 else
 {
-return (0);
+return (48);
 }
 }
 return (0);
